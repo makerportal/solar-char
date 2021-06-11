@@ -1,2 +1,2 @@
-# solar-char
-Solar panel characterization and experiments with Arduino and Python.
+# Solar Panel Characterization with Arduino
+Solar panel characterization with Arduino, with data analyses in Python.
