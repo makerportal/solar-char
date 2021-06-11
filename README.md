@@ -27,3 +27,10 @@ The wiring between the TinyBlueX and Arduino Uno board required for uploading co
 | D11 | 5 |
 | D12 | 6 |
 | D13 | 7 |
+
+<a id="arduino"></a>
+# - Arduino -
+
+Arduino code:
+    
+    
