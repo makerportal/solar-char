@@ -42,4 +42,5 @@ Python rheostat code:
 
 <a id="results"></a>
 # - Results -
-images/solar_panel_char_output.png
+![Solar Panel Char Output](images/solar_panel_char_output.png)
+
