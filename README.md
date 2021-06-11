@@ -31,6 +31,11 @@ The wiring between the TinyBlueX and Arduino Uno board required for uploading co
 <a id="arduino"></a>
 # - Arduino -
 
-Arduino code:
+Arduino rheostat code:
 - solar_rheostat.ino
     
+<a id="python"></a>
+# - Python -
+
+Python rheostat code:
+- python_rheostat.py
