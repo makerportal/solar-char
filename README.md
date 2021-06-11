@@ -39,3 +39,7 @@ Arduino rheostat code:
 
 Python rheostat code:
 - python_rheostat.py
+
+<a id="results"></a>
+# - Results -
+images/solar_panel_char_output.png
