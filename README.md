@@ -18,7 +18,7 @@ The TinyBlueX library can be downloaded using git:
 # - Wiring Diagram for Uploading Code to the TinyBlueX-
 
 The wiring between the TinyBlueX and Arduino Uno board required for uploading code to the TinyBlueX is given below:
-![Solar Char Wiring](/images/experiment_setup_wiring.jpg)
+![Solar Char Wiring](/images/experiment_setup_wiring_github.jpg)
 | Arduino Uno | TinyBlueX |
 | --- | --- |
 | 5V | VCC |
