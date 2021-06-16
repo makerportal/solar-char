@@ -44,3 +44,5 @@ Python rheostat code:
 # - Results -
 ![Solar Panel Char Output](images/solar_panel_char_output.png)
 
+![Solar Panel Diurnal Plot](images/solar_output_diurnal_profile_github.png)
+
