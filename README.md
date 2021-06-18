@@ -58,3 +58,5 @@ In the plot below, we plot the raw time-series plot of the power output from the
 
 ![Solar Panel Diurnal Plot](images/solar_output_diurnal_profile_github.png)
 
+In the bottom plot of the figure above, we can identify some important parameters such as the daily power output and peak temporal output. We can also use this bottom plot to approximate the power output of the region where the panel is placed. See the full tutorial at the link above for more in-depth review and analysis of the plots.
+
