@@ -30,11 +30,11 @@ We first need to characterize the panel’s output range to find the optimal ope
 
 The code used to log and print voltage and current is given at the following code under the arduino folder:
 
-- solar_rheostat.ino
+- [solar_rheostat.ino](/arduino/solar_rheostat.ino)
 
 For the long-term experiment, we left the entire box outside for a day with the solar panel mounted atop the box. The panel was pointed slightly east at an angle less than 15° (due to the slight opening of the box), but mostly vertical to ensure the highest power output. The box was left outside from 8:00 a.m. June 15th, 2021 until roughly 9:00 a.m. June 16th, 2021 in northeastern San Francisco, CA. Data points were acquired roughly every 60 seconds, based on the longterm Arduino code called:
 
-- 
+- [solar_longterm.ino](/arduino/solar_longterm.ino)
     
 <a id="python"></a>
 # - Python -
