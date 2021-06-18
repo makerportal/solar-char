@@ -1,7 +1,7 @@
 # Solar Panel Characterization with Arduino
 Solar panel characterization with Arduino, with data analyses in Python.
 
-Get your Solar Panel Characterization Kit: [solar panel kit](https://makersportal.com/shop/solar-panel-characterization-kit) <br>
+Get your Solar Panel Datalogger Kit: [solar panel kit](https://makersportal.com/shop/solar-panel-datalogger-kit-for-arduino) <br>
 
 # 
 ### JUMP TO:
@@ -15,18 +15,10 @@ The TinyBlueX library can be downloaded using git:
     git clone https://github.com/makerportal/solar-char
 
 <a id="wiring"></a>
-# - Wiring Diagram for Uploading Code to the TinyBlueX-
+# - Wiring Diagram for Solar Datalogging-
 
-The wiring between the TinyBlueX and Arduino Uno board required for uploading code to the TinyBlueX is given below:
+The wiring between the components and the Arduino BLE-Nano board is given below:
 ![Solar Char Wiring](/images/experiment_setup_wiring_github.jpg)
-| Arduino Uno | TinyBlueX |
-| --- | --- |
-| 5V | VCC |
-| GND | GND | 
-| D10 | 1 |
-| D11 | 5 |
-| D12 | 6 |
-| D13 | 7 |
 
 <a id="arduino"></a>
 # - Arduino -
