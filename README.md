@@ -11,7 +11,7 @@ See full tutorial here: [Solar Panel Characterization and Experiments with Ardui
 <a href="#python">- Python Scripts</a><br>
 <a href="#results">- Example Output Plots</a><br>
 
-The TinyBlueX library can be downloaded using git:
+The solar-char library can be downloaded using git:
 
     git clone https://github.com/makerportal/solar-char
 
