@@ -26,7 +26,10 @@ Note: we have omitted any explanation of the wiring configuration in order to de
 <a id="arduino"></a>
 # - Arduino -
 
-Arduino rheostat code:
+We first need to characterize the panel’s output range to find the optimal operating voltage. We do this by turning the rheostat (potentiometer) from minimum to maximum in order to vary the load on the solar panel. First, the Arduino code that logs and prints voltage and current must be uploaded to the microcontroller. In our case, we’re using the BLE-Nano, which acts similar to the Arduino Nano and Uno boards (ATmega328P at the center). 
+
+The code used to log and print voltage and current is given at the following code under the arduino folder:
+
 - solar_rheostat.ino
     
 <a id="python"></a>
