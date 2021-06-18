@@ -8,7 +8,7 @@ See full tutorial here: [Solar Panel Characterization and Experiments with Ardui
 ### JUMP TO:
 <a href="#wiring">- Wiring Diagram</a><br>
 <a href="#arduino">- Arduino Code Usage</a><br>
-<a href="#python">- Arduino Code Usage</a><br>
+<a href="#python">- Python Code Usage</a><br>
 <a href="#results">- Example Output Plots</a><br>
 
 The TinyBlueX library can be downloaded using git:
