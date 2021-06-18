@@ -7,8 +7,8 @@ See full tutorial here: [Solar Panel Characterization and Experiments with Ardui
 # 
 ### JUMP TO:
 <a href="#wiring">- Wiring Diagram</a><br>
-<a href="#arduino">- Arduino Code Usage</a><br>
-<a href="#python">- Python Code Usage</a><br>
+<a href="#arduino">- Arduino Codes</a><br>
+<a href="#python">- Python Scripts</a><br>
 <a href="#results">- Example Output Plots</a><br>
 
 The TinyBlueX library can be downloaded using git:
@@ -24,7 +24,7 @@ The wiring between the components and the Arduino BLE-Nano board is given below:
 Note: we have omitted any explanation of the wiring configuration in order to declutter the tutorial, however, most of the wiring explanations can be found either on our site or in other literature/forums online. We will discuss the solar panel, potentiometer (rheostat), and INA226 current/voltage configuration later in the experimental setup section. The rest are left for the user to explore.
 
 <a id="arduino"></a>
-# - Arduino -
+# - Arduino Codes -
 
 We first need to characterize the panel’s output range to find the optimal operating voltage. We do this by turning the rheostat (potentiometer) from minimum to maximum in order to vary the load on the solar panel. First, the Arduino code that logs and prints voltage and current must be uploaded to the microcontroller. In our case, we’re using the BLE-Nano, which acts similar to the Arduino Nano and Uno boards (ATmega328P at the center). 
 
@@ -37,7 +37,7 @@ For the long-term experiment, we left the entire box outside for a day with the 
 - [solar_longterm.ino](/arduino/solar_longterm.ino)
     
 <a id="python"></a>
-# - Python -
+# - Python Scripts -
 
 Identification of the panel's nominal open-circuit voltage, short-circuit current, max power voltage and current, and max power output can be conducted via the Python rheostat analysis code:
 
@@ -48,7 +48,7 @@ After retrieving the kit after an entire day’s worth of datalogging, we can th
 - [solar_diurnal.py.py](/python/solar_diurnal.py.py)
 
 <a id="results"></a>
-# - Results -
+# - Example Output Plots -
 
 The rheostat analysis output plot can be seen below: 
 
