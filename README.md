@@ -2,6 +2,7 @@
 Solar panel characterization with Arduino, with data analyses in Python.
 
 Get your Solar Panel Datalogger Kit: [solar panel kit](https://makersportal.com/shop/solar-panel-datalogger-kit-for-arduino) <br>
+See full tutorial here: [solar tutorial](https://makersportal.com/blog/solar-panel-characterization-and-experiments-with-arduino) <br>
 
 # 
 ### JUMP TO:
@@ -19,6 +20,8 @@ The TinyBlueX library can be downloaded using git:
 
 The wiring between the components and the Arduino BLE-Nano board is given below:
 ![Solar Char Wiring](/images/experiment_setup_wiring_github.jpg)
+
+Note: we have omitted any explanation of the wiring configuration in order to declutter the tutorial, however, most of the wiring explanations can be found either on our site or in other literature/forums online. We will discuss the solar panel, potentiometer (rheostat), and INA226 current/voltage configuration later in the experimental setup section. The rest are left for the user to explore.
 
 <a id="arduino"></a>
 # - Arduino -
