@@ -12,7 +12,6 @@
 #include <INA226_WE.h>
 #include <SPI.h>
 #include <SD.h>
-#include <LowPower.h>
 
 #define I2C_ADDRESS 0x40 // INA226 I2C address
 
@@ -67,11 +66,7 @@ void loop() {
 
   data_saver(data_to_save); // save new data points
 
-  delay(100);
-  for (int ii=0;ii<8;ii++){ // sleep 64 seconds before next data point
-   LowPower.powerDown(SLEEP_8S, ADC_OFF, BOD_OFF); // sleep routine to lower power consumption
-  }
-  delay(100);
+  delay(60000); // wait 60 seconds between readings 
 }
 
 void data_saver(String WriteData){ // data saver function
