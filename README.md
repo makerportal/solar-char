@@ -1,8 +1,8 @@
 # Solar Panel Characterization with Arduino
 Solar panel characterization with Arduino, with data analyses in Python.
 
-Get your Solar Panel Datalogger Kit: [solar panel kit](https://makersportal.com/shop/solar-panel-datalogger-kit-for-arduino) <br>
-See full tutorial here: [solar tutorial](https://makersportal.com/blog/solar-panel-characterization-and-experiments-with-arduino) <br>
+Get your Solar Panel Datalogger Kit: [Solar Panel Datalogger Kit for Arduino](https://makersportal.com/shop/solar-panel-datalogger-kit-for-arduino) <br>
+See full tutorial here: [Solar Panel Characterization and Experiments with Arduino](https://makersportal.com/blog/solar-panel-characterization-and-experiments-with-arduino) <br>
 
 # 
 ### JUMP TO:
