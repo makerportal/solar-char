@@ -39,12 +39,22 @@ For the long-term experiment, we left the entire box outside for a day with the 
 <a id="python"></a>
 # - Python -
 
-Python rheostat code:
-- python_rheostat.py
+Identification of the panel's nominal open-circuit voltage, short-circuit current, max power voltage and current, and max power output can be conducted via the Python rheostat analysis code:
+
+- [python_rheostat.py](/python/python_rheostat.py)
+
+After retrieving the kit after an entire day’s worth of datalogging, we can then use the Python 3 script for the diurnal analysis:
+
+- [python_rheostat.py](/python/python_rheostat.py)
 
 <a id="results"></a>
 # - Results -
+
+The rheostat analysis output plot can be seen below: 
+
 ![Solar Panel Char Output](images/solar_panel_char_output.png)
+
+In the plot below, we plot the raw time-series plot of the power output from the solar panel:
 
 ![Solar Panel Diurnal Plot](images/solar_output_diurnal_profile_github.png)
 
