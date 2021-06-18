@@ -45,7 +45,7 @@ Identification of the panel's nominal open-circuit voltage, short-circuit curren
 
 After retrieving the kit after an entire day’s worth of datalogging, we can then use the Python 3 script for the diurnal analysis:
 
-- [python_rheostat.py](/python/python_rheostat.py)
+- [solar_diurnal.py.py](/python/solar_diurnal.py.py)
 
 <a id="results"></a>
 # - Results -
