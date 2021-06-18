@@ -7,9 +7,9 @@ See full tutorial here: [Solar Panel Characterization and Experiments with Ardui
 # 
 ### JUMP TO:
 <a href="#wiring">- Wiring Diagram</a><br>
-<a href="#example">- TinyBlueX BLE Chat with the BLExAR iOS App</a><br>
-<a href="#control">- Control Code for TinyBlueX</a><br>
-<a href="#data">- Sending Temperature Data From TinyBlueX to iOS Device</a><br>
+<a href="#arduino">- Arduino Code Usage</a><br>
+<a href="#python">- Arduino Code Usage</a><br>
+<a href="#results">- Example Output Plots</a><br>
 
 The TinyBlueX library can be downloaded using git:
 
